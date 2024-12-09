@@ -5,9 +5,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 using URF.Core.EF.Trackable.Entities;
-using Microsoft.IdentityModel.Tokens;
 using URF.Core.Abstractions.Trackable;
 using URF.Core.EF.Trackable.Entities.Message;
+using URF.Core.Helper.Extensions;
 
 namespace URF.Core.Services.Hubs
 {

@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <LangVersion>latest</LangVersion>
     <Version>3.1.0</Version>
     <Authors>Long Le, Tony Sneed</Authors>
@@ -17,14 +17,16 @@
     <None Include="icon.png" Pack="true" Visible="false" PackagePath="" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
-    <PackageReference Include="Microsoft.AspNetCore.SignalR.Core" Version="1.1.0" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="ClosedXML" Version="0.96.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Drawing.Common" Version="9.0.0" />
+    <PackageReference Include="ZstdSharp.Port" Version="0.8.3" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\URF.Core.Abstractions.Services\URF.Core.Abstractions.Services.csproj" />
     <ProjectReference Include="..\URF.Core.Abstractions\URF.Core.Abstractions.csproj" />
     <ProjectReference Include="..\URF.Core.EF.Trackable\URF.Core.EF.Trackable.csproj" />
+    <ProjectReference Include="..\URF.Core.Helper\URF.Core.Helper.csproj" />
   </ItemGroup>
 </Project>

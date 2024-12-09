@@ -7,6 +7,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text.RegularExpressions;
 using URF.Core.EF.Trackable.Models;
+using URF.Core.Helper.Extensions;
 using URF.Core.Services.Contract;
 
 namespace URF.Core.Services.Implement
